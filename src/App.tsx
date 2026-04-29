@@ -517,7 +517,7 @@ function Mission() {
       name: 'Mohamed', 
       role: "Commercial", 
       bio: "Mohamed Bendada est le responsable commercial du projet Granola. Dynamique, communicatif et orienté résultats, il joue un rôle clé dans la promotion du produit, la recherche de clients et le développement des opportunités de vente. Grâce à son sens du relationnel et à sa vision entrepreneuriale, il contribue activement à faire connaître Granola et à renforcer sa présence sur le marché.", 
-      image: '/images/MOHAMED.jpeg' 
+      image: '/images/MOHAMED12.jpeg' 
     },
   ]
 
