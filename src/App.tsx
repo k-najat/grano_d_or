@@ -207,7 +207,7 @@ function Home({ onStart }: { onStart: () => void }) {
         </div>
         <div className="relative z-20 text-center px-4 max-w-4xl">
           <span className="inline-block px-4 py-1 bg-gran-gold text-gran-dark text-xs font-bold rounded-full mb-6 tracking-widest uppercase">L'excellence artisanale</span>
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 drop-shadow-lg">L'Aventure Culinaire commence ici.</h1>
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 drop-shadow-lg">Du champ à votre bol, avec amour</h1>
           <p className="text-xl text-white mb-10 drop-shadow-md max-w-2xl mx-auto">
             Découvrez l'harmonie parfaite entre la gourmandise et le bien-être avec nos mélanges de granola façonnés à la main.
           </p>
@@ -516,8 +516,8 @@ function Mission() {
     { 
       name: 'Mohamed', 
       role: "Commercial", 
-      bio: "Mohamed apporte la vision stratégique pour amener l'artisanat local sur la scène internationale.", 
-      image: '/images/MOHAMED.jpeg' 
+      bio: "Mohamed Bendada est le responsable commercial du projet Granola. Dynamique, communicatif et orienté résultats, il joue un rôle clé dans la promotion du produit, la recherche de clients et le développement des opportunités de vente. Grâce à son sens du relationnel et à sa vision entrepreneuriale, il contribue activement à faire connaître Granola et à renforcer sa présence sur le marché.", 
+      image: '/images/MOHAMED1.jpeg' 
     },
   ]
 
