@@ -503,19 +503,19 @@ function Mission() {
   const founders = [
     { 
       name: 'Najat', 
-      role: "L'Âme Créatrice", 
-      bio: "Experte en nutrition et passionnée par les bienfaits d'antan, Najat est le génie derrière nos recettes secrètes.", 
+      role: "Production", 
+      bio: "Responsable de la fabrication et de la formulation du produit. J'ai conçu la recette originale et assuré la production artisanale de notre granola, garantissant ainsi la qualité, la traçabilité et le goût authentique qui font aujourd'hui la satisfaction de nos clients.", 
       image: '/images/najat.jpeg' 
     },
     { 
-      name: 'Soukaia', 
-      role: "La Gardienne des Valeurs", 
-      bio: "Soukaia veille à ce que chaque ingrédient provienne de sources éthiques et durables.", 
+      name: 'Soukaina', 
+      role: "Finance", 
+      bio: "Responsable de la gestion financière du projet : élaboration du budget, suivi des coûts et optimisation des dépenses afin d’assurer la rentabilité et la viabilité du projet.", 
       image: '/images/SOUKAINA.jpeg' 
     },
     { 
       name: 'Mohamed', 
-      role: "L'Architecte du Futur", 
+      role: "Commercial", 
       bio: "Mohamed apporte la vision stratégique pour amener l'artisanat local sur la scène internationale.", 
       image: '/images/MOHAMED.jpeg' 
     },
