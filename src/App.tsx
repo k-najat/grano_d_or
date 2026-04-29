@@ -230,7 +230,7 @@ function Home({ onStart }: { onStart: () => void }) {
                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-7.714 2.143L11 21l-2.286-6.857L1 12l7.714-2.143L11 3z" />
                </svg>
              </div>
-             <h3 className="text-xl font-bold text-gran-green mb-4">L'Artisanat Français</h3>
+             <h3 className="text-xl font-bold text-gran-green mb-4">L'Artisanat</h3>
              <p className="text-gray-500 text-sm leading-relaxed">Cuit à basse température dans nos ateliers, notre granola conserve tout son croquant et ses bienfaits nutritionnels. Une méthode traditionnelle pour un goût d'exception.</p>
           </div>
           <div className="bg-gran-green p-8 rounded-2xl text-white shadow-lg">
@@ -511,7 +511,7 @@ function Mission() {
       name: 'Soukaina', 
       role: "Finance", 
       bio: "Responsable de la gestion financière du projet : élaboration du budget, suivi des coûts et optimisation des dépenses afin d’assurer la rentabilité et la viabilité du projet.", 
-      image: '/images/SOUKAINA.jpeg' 
+      image: '/images/SOUKAINA1.jpeg' 
     },
     { 
       name: 'Mohamed', 
