@@ -356,7 +356,7 @@ function Configurator({ onAddToCart }: { onAddToCart: (item: any) => void }) {
       <div className="text-center mb-16">
         <p className="text-gran-gold font-bold text-xs uppercase tracking-[0.2em] mb-4">L'artisanat sur-mesure</p>
         <h2 className="text-4xl md:text-5xl font-bold text-gran-green mb-6">Mon Granola d'Or</h2>
-        <p className="text-gray-500 max-w-2xl mx-auto">Concevez votre mélange idéal à partir d'ingrédients biologiques rigoureusement sélectionnés. Chaque sachet est assemblé à la main dans notre atelier à Casablanca.</p>
+        <p className="text-gray-500 max-w-2xl mx-auto">Concevez votre mélange idéal à partir d'ingrédients biologiques rigoureusement sélectionnés. Chaque sachet est assemblé à la main dans notre atelier à temassna.</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
@@ -490,7 +490,7 @@ function Configurator({ onAddToCart }: { onAddToCart: (item: any) => void }) {
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gran-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <p>Livraison estimée sous 24-48 heures au Maroc. Expédié avec amour de notre atelier casablancais.</p>
+              <p>Livraison estimée sous 24-48 heures au Maroc. Expédié avec amour de notre atelier temassnais.</p>
             </div>
           </div>
         </div>
@@ -671,7 +671,7 @@ function Cart({ items, onRemove, onContinue, onCheckout, isLoggedIn }: { items: 
                 <span className="font-bold">{subtotal.toFixed(2)} DH</span>
               </div>
               <div className="flex justify-between text-gray-500">
-                <span className="text-sm">Livraison (Casablanca)</span>
+                <span className="text-sm">Livraison (temassna)</span>
                 <span className="text-gran-green font-bold uppercase text-xs">Offert</span>
               </div>
               <div className="flex justify-between text-gray-500">
