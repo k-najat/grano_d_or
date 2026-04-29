@@ -7,7 +7,13 @@ function App() {
   const [orders, setOrders] = useState<any[]>([])
   const [usersList, setUsersList] = useState<any[]>([])
 
+  const [showAuthAlert, setShowAuthAlert] = useState(false)
+
   const addToCart = (item: any) => {
+    if (!user) {
+      setShowAuthAlert(true)
+      return
+    }
     setCart([...cart, { ...item, id: Date.now() }])
     setPage('cart')
   }
@@ -57,6 +63,47 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col font-sans">
+      {/* Auth Alert Modal */}
+      {showAuthAlert && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm animate-fade-in">
+          <div className="bg-white rounded-[40px] p-10 max-w-sm w-full shadow-2xl text-center">
+            <div className="w-20 h-20 bg-gran-light rounded-full flex items-center justify-center text-4xl mx-auto mb-6">
+              🔒
+            </div>
+            <h3 className="text-2xl font-bold text-gran-green mb-4">Connexion Requise</h3>
+            <p className="text-gray-500 mb-8 leading-relaxed">
+              Pour ajouter votre création au panier et passer commande, vous devez être connecté à votre compte Gran d'Or.
+            </p>
+            <div className="flex flex-col gap-3">
+              <button 
+                onClick={() => {
+                  setShowAuthAlert(false)
+                  setPage('login')
+                }}
+                className="w-full bg-gran-green text-white py-4 rounded-2xl font-bold hover:bg-gran-dark transition-all"
+              >
+                Se connecter
+              </button>
+              <button 
+                onClick={() => {
+                  setShowAuthAlert(false)
+                  setPage('signup')
+                }}
+                className="w-full border border-gray-100 py-4 rounded-2xl font-bold text-gray-500 hover:bg-gray-50 transition-all"
+              >
+                Créer un compte
+              </button>
+              <button 
+                onClick={() => setShowAuthAlert(false)}
+                className="w-full py-2 text-xs font-bold text-gray-400 uppercase tracking-widest hover:text-gran-green transition-colors"
+              >
+                Plus tard
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       <nav className="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gran-green/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-20 items-center">
